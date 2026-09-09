@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {"id":"sockets","name":"Розетки"},
+    {"id":"switches","name":"Выключатели"},
+    {"id":"lighting","name":"Освещение"},
+    {"id":"protection","name":"Защита и автоматика"},
+    {"id":"panels","name":"Электрические щиты"},
+    {"id":"cabling","name":"Кабель и проводка"},
+    {"id":"installation","name":"Монтажные работы"},
+    {"id":"low_current","name":"Слаботочные системы"},
+    {"id":"automation","name":"Автоматизация"},
+    {"id":"ventilation","name":"Вентиляция"},
+    {"id":"service","name":"Сервис"}
+  ]
+}
