@@ -85,6 +85,12 @@ const main = async () => {
       if (synonyms.schemaVersion !== 1 || !Array.isArray(synonyms.groups)) {
         fail(`${profile.id}: invalid search-synonyms.json`);
       }
+      synonyms.groups.forEach((group, groupIndex) => {
+        if (!Array.isArray(group) || group.length < 2) {
+          fail(`${profile.id}: synonym group ${groupIndex} must contain at least two terms`);
+        }
+        group.forEach((term, termIndex) => assertString(term, `${profile.id} synonym ${groupIndex}.${termIndex}`));
+      });
     }
 
     if (config !== undefined) {
