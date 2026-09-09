@@ -8,7 +8,7 @@ const source = await response.text();
 const javascript = source
   .replace(/interface Service \{[\s\S]*?\}\s*/, '')
   .replace('export const CATEGORIES', 'const CATEGORIES')
-  .replace('export const CATALOG', 'const CATALOG')
+  .replace('export const CATALOG: Record<string, Service[]>', 'const CATALOG')
   .concat('\nresult = { CATEGORIES, CATALOG };');
 const context = {};
 vm.createContext(context);
