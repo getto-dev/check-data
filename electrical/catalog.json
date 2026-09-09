@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {"id":"el_001","name":"Монтаж розетки","description":"Установка и подключение розетки на готовое место","unit":"шт","priceKopecks":80000,"categoryId":"sockets","type":"service"},
+    {"id":"el_002","name":"Монтаж двойной розетки","description":"Установка и подключение двойной розетки на готовое место","unit":"шт","priceKopecks":110000,"categoryId":"sockets","type":"service"},
+    {"id":"el_003","name":"Монтаж выключателя одноклавишного","description":"Установка и подключение выключателя на готовое место","unit":"шт","priceKopecks":70000,"categoryId":"switches","type":"service"},
+    {"id":"el_004","name":"Монтаж выключателя двухклавишного","description":"Установка и подключение двухклавишного выключателя","unit":"шт","priceKopecks":90000,"categoryId":"switches","type":"service"},
+    {"id":"el_005","name":"Монтаж проходного выключателя","description":"Установка и подключение проходного выключателя","unit":"шт","priceKopecks":100000,"categoryId":"switches","type":"service"},
+    {"id":"el_006","name":"Монтаж люстры","description":"Сборка и установка люстры, подключение к существующей точке","unit":"шт","priceKopecks":250000,"categoryId":"lighting","type":"service"},
+    {"id":"el_007","name":"Монтаж светильника","description":"Установка и подключение светильника к готовой точке","unit":"шт","priceKopecks":150000,"categoryId":"lighting","type":"service"},
+    {"id":"el_008","name":"Монтаж точечного светильника","description":"Установка и подключение одного точечного светильника","unit":"шт","priceKopecks":90000,"categoryId":"lighting","type":"service"},
+    {"id":"el_009","name":"Монтаж автоматического выключателя","description":"Установка одного автомата в электрическом щите","unit":"шт","priceKopecks":120000,"categoryId":"protection","type":"service"},
+    {"id":"el_010","name":"Монтаж УЗО","description":"Установка и подключение устройства защитного отключения","unit":"шт","priceKopecks":160000,"categoryId":"protection","type":"service"},
+    {"id":"el_011","name":"Монтаж дифавтомата","description":"Установка и подключение дифференциального автомата","unit":"шт","priceKopecks":170000,"categoryId":"protection","type":"service"},
+    {"id":"el_012","name":"Сборка электрического щита до 12 модулей","description":"Монтаж комплектующих и коммутация внутри щита","unit":"шт","priceKopecks":450000,"categoryId":"panels","type":"service"},
+    {"id":"el_013","name":"Сборка электрического щита до 24 модулей","description":"Монтаж комплектующих и коммутация внутри щита","unit":"шт","priceKopecks":700000,"categoryId":"panels","type":"service"},
+    {"id":"el_014","name":"Монтаж кабеля до 2.5 мм² открытым способом","description":"Прокладка и фиксация кабеля без штробления","unit":"м","priceKopecks":4500,"categoryId":"cabling","type":"service"},
+    {"id":"el_015","name":"Монтаж кабеля до 6 мм² открытым способом","description":"Прокладка и фиксация силового кабеля без штробления","unit":"м","priceKopecks":6500,"categoryId":"cabling","type":"service"},
+    {"id":"el_016","name":"Прокладка кабеля в штробе до 2.5 мм²","description":"Укладка кабеля в подготовленную штробу с фиксацией","unit":"м","priceKopecks":7000,"categoryId":"cabling","type":"service"},
+    {"id":"el_017","name":"Монтаж подрозетника","description":"Установка подрозетника в подготовленное отверстие","unit":"шт","priceKopecks":65000,"categoryId":"installation","type":"service"},
+    {"id":"el_018","name":"Монтаж распределительной коробки","description":"Установка коробки и подготовка к соединению проводов","unit":"шт","priceKopecks":90000,"categoryId":"installation","type":"service"},
+    {"id":"el_019","name":"Соединение проводов в распределительной коробке","description":"Соединение и укладка проводников внутри коробки","unit":"шт","priceKopecks":120000,"categoryId":"installation","type":"service"},
+    {"id":"el_020","name":"Монтаж звонка","description":"Установка и подключение электрического звонка","unit":"шт","priceKopecks":90000,"categoryId":"low_current","type":"service"},
+    {"id":"el_021","name":"Монтаж терморегулятора","description":"Установка и подключение терморегулятора теплого пола","unit":"шт","priceKopecks":110000,"categoryId":"automation","type":"service"},
+    {"id":"el_022","name":"Монтаж датчика движения","description":"Установка и подключение датчика движения","unit":"шт","priceKopecks":120000,"categoryId":"automation","type":"service"},
+    {"id":"el_023","name":"Монтаж вентилятора","description":"Установка и подключение бытового вентилятора","unit":"шт","priceKopecks":150000,"categoryId":"ventilation","type":"service"},
+    {"id":"el_024","name":"Поиск и устранение неисправности линии","description":"Диагностика электрической линии и устранение локальной неисправности","unit":"час","priceKopecks":300000,"categoryId":"service","type":"service"}
+  ]
+}
