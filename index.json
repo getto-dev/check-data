@@ -4,7 +4,7 @@
     {
       "id": "plumbing",
       "name": "Сантехника",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "manifest": "plumbing/manifest.json",
       "itemCount": 271
     },
