@@ -20,14 +20,33 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  validate:
+  import:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Import Voltcalc price
+        run: node scripts/import-voltcalc.mjs
+      - name: Commit imported price
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git diff --quiet; then
+            echo 'No price changes.'
+          else
+            git add electrical/catalog.json electrical/categories.json electrical/manifest.json
+            git commit -m 'data: import electrical price from voltcalc'
+            git push
+          fi
 
+  validate:
+    needs: import
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Validate dataset
         run: node scripts/validate-dataset.mjs
