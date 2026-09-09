@@ -10,10 +10,10 @@
     },
     {
       "id": "electrical",
-      "name": "Электрика · тестовый каталог",
-      "version": "0.1.0",
+      "name": "Электрика",
+      "version": "1.0.0",
       "manifest": "electrical/manifest.json",
-      "itemCount": 24
+      "itemCount": 163
     }
   ]
 }
