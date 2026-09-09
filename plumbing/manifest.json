@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "plumbing",
   "name": "Сантехника",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "locale": "ru-RU",
   "currency": "RUB",
   "files": {
@@ -10,5 +10,6 @@
     "categories": "categories.json",
     "synonyms": "search-synonyms.json",
     "config": "config.json"
-  }
+  },
+  "itemCount": 271
 }

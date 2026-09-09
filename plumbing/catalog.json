@@ -1,4 +1,2444 @@
 {
   "schemaVersion": 1,
-  "items": []
+  "items": [
+    {
+      "id": "heat_001",
+      "name": "Монтаж радиатора (без подводящих сетей)",
+      "description": "Сборка радиатора, установка отсекающих кранов, монтаж с фиксацией кранов",
+      "unit": "шт",
+      "priceKopecks": 400000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_002",
+      "name": "Монтаж дизайн-радиаторов",
+      "description": "Сборка радиатора, установка отсекающих кранов, монтаж с фиксацией кранов",
+      "unit": "шт",
+      "priceKopecks": 900000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_003",
+      "name": "Монтаж радиатора с обвязкой металлом (чугун)",
+      "description": "Сборка радиатора, установка отсекающих кранов, монтаж с фиксацией кранов",
+      "unit": "шт",
+      "priceKopecks": 630000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_004",
+      "name": "Монтаж водяной воздушной завесы",
+      "description": "Навес завесы, гидравлические подключения",
+      "unit": "шт",
+      "priceKopecks": 720000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_005",
+      "name": "Монтаж электрической воздушной завесы",
+      "description": "От сложности монтажа. Без электропроводки, без трехходового клапана",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_006",
+      "name": "Монтаж фанкойла кассетного",
+      "description": "Отсекающие краны; без трехходового клапана",
+      "unit": "шт",
+      "priceKopecks": 1080000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_007",
+      "name": "Монтаж фанкойла канального",
+      "description": "Отсекающие краны; без трехходового клапана",
+      "unit": "шт",
+      "priceKopecks": 720000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_008",
+      "name": "Монтаж фанкойла настенного",
+      "description": "Отсекающие краны; без трехходового клапана",
+      "unit": "шт",
+      "priceKopecks": 720000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_009",
+      "name": "Монтаж фанкойла напольного",
+      "description": "Отсекающие краны; без трехходового клапана",
+      "unit": "шт",
+      "priceKopecks": 900000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_010",
+      "name": "Монтаж фанкойла потолочного",
+      "description": "Отсекающие краны; без трехходового клапана",
+      "unit": "шт",
+      "priceKopecks": 1170000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_011",
+      "name": "Монтаж конвектора настенного",
+      "description": "Отсекающие краны; без термоголовки",
+      "unit": "шт",
+      "priceKopecks": 630000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_012",
+      "name": "Монтаж конвектора напольного",
+      "description": "Отсекающие краны; без термоголовки",
+      "unit": "шт",
+      "priceKopecks": 540000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_013",
+      "name": "Монтаж конвектора внутрипольного",
+      "description": "1 секция. Отсекающие краны; без термоголовки",
+      "unit": "шт",
+      "priceKopecks": 900000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_014",
+      "name": "Монтаж водяного тепловентилятора (типа Volcano)",
+      "description": "Отсекающие краны; без регулятора и электропроводки",
+      "unit": "шт",
+      "priceKopecks": 720000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "heat_015",
+      "name": "Обвязка теплообменника вентиляции",
+      "description": "Узел смесительный",
+      "unit": "шт",
+      "priceKopecks": 720000,
+      "categoryId": "heating",
+      "type": "service"
+    },
+    {
+      "id": "floor_001",
+      "name": "Монтаж теплого пола (пенофол)",
+      "description": "Укладка труб с фиксацией, теплоизоляция, опрессовка",
+      "unit": "м²",
+      "priceKopecks": 90000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_002",
+      "name": "Монтаж теплого пола (пенополистирол)",
+      "description": "Укладка труб с фиксацией, теплоизоляция, опрессовка",
+      "unit": "м²",
+      "priceKopecks": 117000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_003",
+      "name": "Установка коллекторного шкафа",
+      "description": "без штробления",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_004",
+      "name": "Монтаж коллектора теплого пола с насосом",
+      "description": "до 4-х контуров",
+      "unit": "шт",
+      "priceKopecks": 900000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_005",
+      "name": "Монтаж коллектора теплого пола с насосом",
+      "description": "5 контуров",
+      "unit": "шт",
+      "priceKopecks": 945000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_006",
+      "name": "Монтаж коллектора теплого пола с насосом",
+      "description": "6 контуров",
+      "unit": "шт",
+      "priceKopecks": 990000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_007",
+      "name": "Монтаж коллектора теплого пола с насосом",
+      "description": "7 контуров",
+      "unit": "шт",
+      "priceKopecks": 1035000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_008",
+      "name": "Монтаж коллектора теплого пола с насосом",
+      "description": "8 контуров",
+      "unit": "шт",
+      "priceKopecks": 1080000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_009",
+      "name": "Монтаж коллектора теплого пола с насосом",
+      "description": "9 контуров",
+      "unit": "шт",
+      "priceKopecks": 1125000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_010",
+      "name": "Монтаж коллектора отопления",
+      "description": "до 4-х контуров",
+      "unit": "комп",
+      "priceKopecks": 540000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_011",
+      "name": "Монтаж коллектора отопления",
+      "description": "5 контуров",
+      "unit": "комп",
+      "priceKopecks": 585000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_012",
+      "name": "Монтаж коллектора отопления",
+      "description": "6 контуров",
+      "unit": "комп",
+      "priceKopecks": 630000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_013",
+      "name": "Монтаж коллектора отопления",
+      "description": "7 контуров",
+      "unit": "комп",
+      "priceKopecks": 675000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_014",
+      "name": "Монтаж коллектора отопления",
+      "description": "8 контуров",
+      "unit": "комп",
+      "priceKopecks": 720000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_015",
+      "name": "Монтаж коллектора отопления",
+      "description": "9 контуров",
+      "unit": "комп",
+      "priceKopecks": 765000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_016",
+      "name": "Монтаж РТЛ клапана, ТРГ ВПС",
+      "description": "установка",
+      "unit": "шт",
+      "priceKopecks": 108000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "floor_017",
+      "name": "Монтаж унибокса",
+      "description": "Штробление, сборка, монтаж, подключение",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "floor_heat",
+      "type": "service"
+    },
+    {
+      "id": "water_001",
+      "name": "Монтаж точки водоснабжения",
+      "description": "Вывод точки водоразбора с наружной фиксацией",
+      "unit": "шт",
+      "priceKopecks": 135000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_002",
+      "name": "Врезка в трубопровод DN 32-63",
+      "description": "Хомут, отсекающий кран",
+      "unit": "шт",
+      "priceKopecks": 360000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_003",
+      "name": "Монтаж редуктора давления",
+      "description": "установка",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_004",
+      "name": "Монтаж повышающего насоса бытового с байпасом",
+      "description": "Грязевик, отсекающие краны",
+      "unit": "шт",
+      "priceKopecks": 675000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_005",
+      "name": "Монтаж повышающего насоса полупромышленного",
+      "description": "Грязевик, отсекающие краны",
+      "unit": "шт",
+      "priceKopecks": 900000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_006",
+      "name": "Монтаж погружного, скважинного насоса",
+      "description": "установка в скважину (колодец), обвязка",
+      "unit": "шт",
+      "priceKopecks": 675000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_007",
+      "name": "Установка водяного счетчика 1/2",
+      "description": "Фильтр сетчатый, отсекающий кран",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_008",
+      "name": "Установка и обвязка емкости до 1000л",
+      "description": "Поплавок, отсекающие краны, перелив",
+      "unit": "шт",
+      "priceKopecks": 900000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_009",
+      "name": "Установка и обвязка емкости до 5000л",
+      "description": "Поплавок, отсекающие краны, перелив",
+      "unit": "шт",
+      "priceKopecks": 990000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_010",
+      "name": "Установка и обвязка емкости до 10000л",
+      "description": "Поплавок, отсекающие краны, перелив",
+      "unit": "шт",
+      "priceKopecks": 1440000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_011",
+      "name": "Монтаж коллектора водоснабжения 1 выход",
+      "description": "Каждый выход отдельно, отсекающие краны",
+      "unit": "шт",
+      "priceKopecks": 90000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_013",
+      "name": "Узел ввода",
+      "description": "Кран, грязевик (фильтр), счетчик, обратный клапан",
+      "unit": "шт",
+      "priceKopecks": 630000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_014",
+      "name": "Сантехшкаф",
+      "description": "Краны, антипротечка, редуктор, фильтр, коллектор, счетчик",
+      "unit": "шт",
+      "priceKopecks": 2700000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_015",
+      "name": "Байпас",
+      "description": "Кран, тройники",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_016",
+      "name": "Компенсатор гидроударов",
+      "description": "Защита труб от скачков давления",
+      "unit": "шт",
+      "priceKopecks": 90000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_017",
+      "name": "Обратный клапан",
+      "description": "Предотвращение обратного тока воды",
+      "unit": "шт",
+      "priceKopecks": 90000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_018",
+      "name": "Термометр",
+      "description": "Измерение температуры среды",
+      "unit": "шт",
+      "priceKopecks": 45000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_019",
+      "name": "Манометр",
+      "description": "Измерение давления в системе",
+      "unit": "шт",
+      "priceKopecks": 45000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_020",
+      "name": "Краны, вентили до 1",
+      "description": "При отдельном или дополнительном монтаже",
+      "unit": "шт",
+      "priceKopecks": 135000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_021",
+      "name": "Краны, вентили до 2",
+      "description": "При отдельном или дополнительном монтаже",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_022",
+      "name": "Фиксация водоразбора в штробе",
+      "description": "под уровень, лазерный уровень",
+      "unit": "шт",
+      "priceKopecks": 45000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_023",
+      "name": "Сантехшкаф повышенной сложности",
+      "description": "Краны, антипротечка, редуктор, фильтр, коллектор, счетчик",
+      "unit": "шт",
+      "priceKopecks": 5400000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_024",
+      "name": "Монтаж встраиваемого блока смесителя для раковины",
+      "description": "Монтаж встраиваемого блока смесителя для раковины",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_025",
+      "name": "Монтаж встраиваемого блока смесителя для тропического душа",
+      "description": "Монтаж встраиваемого блока смесителя для тропического душа",
+      "unit": "шт",
+      "priceKopecks": 800000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "water_026",
+      "name": "Монтаж встраиваемого блока смесителя для гигиенического душа",
+      "description": "Монтаж встраиваемого блока смесителя для гигиенического душа",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "water",
+      "type": "service"
+    },
+    {
+      "id": "boiler_001",
+      "name": "Монтаж настенного газового котла",
+      "description": "Навес, установка отсекающих кранов, присоединение к системе",
+      "unit": "шт",
+      "priceKopecks": 1350000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_002",
+      "name": "Монтаж электрического настенного котла",
+      "description": "Навес, установка отсекающих кранов, присоединение к системе",
+      "unit": "шт",
+      "priceKopecks": 1170000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_003",
+      "name": "Монтаж котла напольного до 50кВт",
+      "description": "Группа безопасности, отсекающие краны",
+      "unit": "шт",
+      "priceKopecks": 1530000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_004",
+      "name": "Монтаж котла напольного от 50-100кВт",
+      "description": "Группа безопасности, отсекающие краны",
+      "unit": "шт",
+      "priceKopecks": 2160000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_005",
+      "name": "Монтаж газового водонагревателя до 200л",
+      "description": "Группа безопасности бойлера и отсекающих кранов",
+      "unit": "шт",
+      "priceKopecks": 900000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_006",
+      "name": "Монтаж газового водонагревателя до 500л",
+      "description": "Группа безопасности бойлера и отсекающих кранов",
+      "unit": "шт",
+      "priceKopecks": 1350000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_007",
+      "name": "Монтаж бойлера косвенного нагрева до 200л",
+      "description": "Группа безопасности бойлера и отсекающих кранов",
+      "unit": "шт",
+      "priceKopecks": 1800000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_008",
+      "name": "Монтаж бойлера косвенного нагрева до 500л",
+      "description": "Группа безопасности бойлера и отсекающих кранов",
+      "unit": "шт",
+      "priceKopecks": 2250000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_009",
+      "name": "Монтаж электрического бойлера",
+      "description": "Группа безопасности бойлера и отсекающих кранов",
+      "unit": "шт",
+      "priceKopecks": 585000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_010",
+      "name": "Монтаж газовой колонки",
+      "description": "Дымоход отдельно",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_011",
+      "name": "Монтаж контура циркуляции с насосом и смесительным узлом",
+      "description": "Отсекающие краны, трехходовой кран, насос, обратный клапан",
+      "unit": "шт",
+      "priceKopecks": 1080000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_012",
+      "name": "Монтаж контура циркуляции с насосом",
+      "description": "Прямой контур с отсекающими кранами и насосом",
+      "unit": "шт",
+      "priceKopecks": 900000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_013",
+      "name": "Монтаж контура узла рециркуляции",
+      "description": "Отсекающие краны, насос, обратный клапан и фильтр",
+      "unit": "шт",
+      "priceKopecks": 900000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_014",
+      "name": "Монтаж гидрострелки (до 80 кВт)",
+      "description": "Отсекающие и сливной кран, воздухоудалитель, термометр",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_015",
+      "name": "Монтаж гидрострелки (свыше 80 кВт)",
+      "description": "Отсекающие и сливной кран, воздухоудалитель, термометр",
+      "unit": "шт",
+      "priceKopecks": 540000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_016",
+      "name": "Обвязка теплообменника (до 100 кВт)",
+      "description": "Отсекающие и сливной кран, воздухоудалитель, термометр",
+      "unit": "шт",
+      "priceKopecks": 1080000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_017",
+      "name": "Обвязка теплообменника (свыше 100 кВт)",
+      "description": "Отсекающие и сливной кран, воздухоудалитель, термометр",
+      "unit": "шт",
+      "priceKopecks": 1170000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_018",
+      "name": "Монтаж расширительного бака",
+      "description": "Отсекающий кран, кронштейн",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_019",
+      "name": "Монтаж распределительного коллектора (до 100 кВт)",
+      "description": "Отсекающие и сливной кран, воздухоудалитель, термометр",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_020",
+      "name": "Монтаж распределительного коллектора (свыше 100 кВт)",
+      "description": "Отсекающие и сливной кран, воздухоудалитель, термометр",
+      "unit": "шт",
+      "priceKopecks": 405000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_021",
+      "name": "Монтаж коллектора-разделителя до 90 кВт",
+      "description": "Отсекающие и сливной кран, воздухоудалитель, термометр",
+      "unit": "шт",
+      "priceKopecks": 630000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_022",
+      "name": "Монтаж турбовытяжки напольного котла",
+      "description": "Электроподключение к котлу, установка на котел",
+      "unit": "шт",
+      "priceKopecks": 585000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_023",
+      "name": "Монтаж узла подпитки",
+      "description": "краны, обратный клапан / автоподпитка",
+      "unit": "комп",
+      "priceKopecks": 450000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_024",
+      "name": "Монтаж газового редуктора",
+      "description": "кран, разъёмы",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "boiler_025",
+      "name": "Монтаж групп быстрого монтажа",
+      "description": "сборка, монтаж",
+      "unit": "шт",
+      "priceKopecks": 720000,
+      "categoryId": "boilers",
+      "type": "service"
+    },
+    {
+      "id": "chimney_001",
+      "name": "Монтаж дымохода (одностенный)",
+      "description": "До 5 метров",
+      "unit": "м.п",
+      "priceKopecks": 180000,
+      "categoryId": "chimneys",
+      "type": "service"
+    },
+    {
+      "id": "chimney_002",
+      "name": "Монтаж дымохода (двустенный)",
+      "description": "До 5 метров",
+      "unit": "м.п",
+      "priceKopecks": 225000,
+      "categoryId": "chimneys",
+      "type": "service"
+    },
+    {
+      "id": "chimney_003",
+      "name": "Монтаж дымохода по наружной стене (двустенный)",
+      "description": "До 5 метров",
+      "unit": "м.п",
+      "priceKopecks": 270000,
+      "categoryId": "chimneys",
+      "type": "service"
+    },
+    {
+      "id": "chimney_004",
+      "name": "Монтаж дефлектора",
+      "description": "От сложности",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "chimneys",
+      "type": "service"
+    },
+    {
+      "id": "chimney_005",
+      "name": "Монтаж фасонных частей дымохода",
+      "description": "Тройники, углы и т.д.",
+      "unit": "шт",
+      "priceKopecks": 72000,
+      "categoryId": "chimneys",
+      "type": "service"
+    },
+    {
+      "id": "chimney_006",
+      "name": "Проход дымохода через кровлю",
+      "description": "Герметичный",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "chimneys",
+      "type": "service"
+    },
+    {
+      "id": "chimney_007",
+      "name": "Монтажная площадка",
+      "description": "От сложности",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "chimneys",
+      "type": "service"
+    },
+    {
+      "id": "sewer_001",
+      "name": "Монтаж точки канализации",
+      "description": "Монтаж точки вывода канализации с фиксацией",
+      "unit": "шт",
+      "priceKopecks": 135000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_002",
+      "name": "Труба Ø50 на стене",
+      "description": "Прокладка труб с фиксацией на стене",
+      "unit": "м.п",
+      "priceKopecks": 45000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_003",
+      "name": "Труба Ø50 на полу",
+      "description": "Прокладка труб с фиксацией на полу",
+      "unit": "м.п",
+      "priceKopecks": 63000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_004",
+      "name": "Труба Ø50 на потолке",
+      "description": "Прокладка труб с фиксацией на потолке",
+      "unit": "м.п",
+      "priceKopecks": 72000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_005",
+      "name": "Труба Ø110 на стене",
+      "description": "Прокладка труб с фиксацией на стене",
+      "unit": "м.п",
+      "priceKopecks": 63000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_006",
+      "name": "Труба Ø110 на полу",
+      "description": "Прокладка труб с фиксацией на полу",
+      "unit": "м.п",
+      "priceKopecks": 81000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_007",
+      "name": "Труба Ø110 на потолке",
+      "description": "Прокладка труб с фиксацией на потолке",
+      "unit": "м.п",
+      "priceKopecks": 90000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_008",
+      "name": "Труба Ø160 на стене",
+      "description": "Прокладка труб с фиксацией на стене",
+      "unit": "м.п",
+      "priceKopecks": 72000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_009",
+      "name": "Труба Ø160 на полу",
+      "description": "Прокладка труб с фиксацией на полу",
+      "unit": "м.п",
+      "priceKopecks": 90000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_010",
+      "name": "Труба Ø160 на потолке",
+      "description": "Прокладка труб с фиксацией на потолке",
+      "unit": "м.п",
+      "priceKopecks": 108000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_011",
+      "name": "Труба Ø200 на стене",
+      "description": "Прокладка труб с фиксацией на стене",
+      "unit": "м.п",
+      "priceKopecks": 90000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_012",
+      "name": "Труба Ø200 на полу",
+      "description": "Прокладка труб с фиксацией на полу",
+      "unit": "м.п",
+      "priceKopecks": 108000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_013",
+      "name": "Труба Ø200 на потолке",
+      "description": "Прокладка труб с фиксацией на потолке",
+      "unit": "м.п",
+      "priceKopecks": 135000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_014",
+      "name": "Труба наружная Ø110",
+      "description": "Без земляных работ и спецтехники",
+      "unit": "м.п",
+      "priceKopecks": 108000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_015",
+      "name": "Труба наружная Ø160",
+      "description": "Без земляных работ и спецтехники",
+      "unit": "м.п",
+      "priceKopecks": 135000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_016",
+      "name": "Труба наружная Ø200",
+      "description": "Без земляных работ и спецтехники",
+      "unit": "м.п",
+      "priceKopecks": 180000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_017",
+      "name": "Труба наружная Ø250",
+      "description": "Без земляных работ и спецтехники",
+      "unit": "м.п",
+      "priceKopecks": 225000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_018",
+      "name": "Стояк канализации Ø110",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 315000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_019",
+      "name": "Врезка в канализацию Ø110-Ø200",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_020",
+      "name": "Соединение стояка с лежаком",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 135000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_021",
+      "name": "Соединение лежака со стояком",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 90000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_022",
+      "name": "Компенсатор в трубу Ø50",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 135000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_023",
+      "name": "Компенсатор в трубу Ø110",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 225000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_024",
+      "name": "Дезодоратор Ø50-Ø110",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 90000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_025",
+      "name": "Ревизия канализационная",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 63000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_026",
+      "name": "Фекальный насос",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 540000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_027",
+      "name": "Уличный сливной трап Ø110-Ø200",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_028",
+      "name": "Душевой лоток (щелевой трап)",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 585000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_029",
+      "name": "Душевой трап",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 405000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_030",
+      "name": "Квадратный трап",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_031",
+      "name": "Замена стояка чугун/пластик",
+      "description": "демонтаж, монтаж",
+      "unit": "шт",
+      "priceKopecks": 1170000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_032",
+      "name": "Канализационный колодец с люком",
+      "description": "От сложности монтажа",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_033",
+      "name": "Дренажные лотки",
+      "description": "подготовка основания, установка, бетонирование",
+      "unit": "м.п",
+      "priceKopecks": 270000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_034",
+      "name": "Шумоизоляция стояка",
+      "description": "подготовка, монтаж",
+      "unit": "м.п",
+      "priceKopecks": 180000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_035",
+      "name": "Шумоизоляция крестовины",
+      "description": "Монтаж звукоизолирующего материала",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_036",
+      "name": "Измельчитель под мойку",
+      "description": "сборка, подключение к мойке и канализации",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "sewer_037",
+      "name": "Шумоизоляция фитингов",
+      "description": "Монтаж звукоизолирующего материала",
+      "unit": "шт",
+      "priceKopecks": 90000,
+      "categoryId": "sewerage",
+      "type": "service"
+    },
+    {
+      "id": "pipes_001",
+      "name": "Труба Ø16-Ø20 (PEX, PERT) по полу",
+      "description": "по полу, стене, потолку с фиксацией",
+      "unit": "м.п",
+      "priceKopecks": 13500,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_002",
+      "name": "Труба Ø25-Ø32 (PEX, PERT) с фиксацией по полу",
+      "description": "с фиксацией по полу, в штробе, в каналах",
+      "unit": "м.п",
+      "priceKopecks": 18000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_003",
+      "name": "Труба Ø20-Ø25 (PPR) с фиксацией по полу",
+      "description": "с фиксацией по полу, в штробе, в каналах",
+      "unit": "м.п",
+      "priceKopecks": 25200,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_004",
+      "name": "Труба Ø32-Ø40 (PPR) с фиксацией по полу",
+      "description": "с фиксацией по полу, в штробе, в каналах",
+      "unit": "м.п",
+      "priceKopecks": 36000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_005",
+      "name": "Труба Ø50-Ø63 (PPR) с фиксацией по полу",
+      "description": "с фиксацией по полу, в штробе, в каналах",
+      "unit": "м.п",
+      "priceKopecks": 54000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_006",
+      "name": "Труба Ø75-Ø90 (PPR) с фиксацией по полу",
+      "description": "с фиксацией по полу, в штробе, в каналах",
+      "unit": "м.п",
+      "priceKopecks": 81000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_007",
+      "name": "Труба Ø110 (PPR) с фиксацией по полу",
+      "description": "с фиксацией по полу, в штробе, в каналах",
+      "unit": "м.п",
+      "priceKopecks": 108000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_008",
+      "name": "Труба Ø125 (PPR) с фиксацией по полу",
+      "description": "с фиксацией по полу, в штробе, в каналах",
+      "unit": "м.п",
+      "priceKopecks": 126000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_009",
+      "name": "Труба по стене Ø20-Ø25",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 27000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_010",
+      "name": "Труба по стене Ø32-Ø40",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 40500,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_011",
+      "name": "Труба по стене Ø50-Ø63",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 63000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_012",
+      "name": "Труба по стене Ø75",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 72000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_013",
+      "name": "Труба по стене Ø90",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 90000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_014",
+      "name": "Труба по стене Ø110",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 117000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_015",
+      "name": "Труба по стене Ø125",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 135000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_016",
+      "name": "Труба по потолку Ø16-Ø25",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 36000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_017",
+      "name": "Труба по потолку Ø32-Ø40",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 54000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_018",
+      "name": "Труба по потолку Ø50-Ø63",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 72000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_019",
+      "name": "Труба по потолку Ø75",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 90000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_020",
+      "name": "Труба по потолку Ø90",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 108000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_021",
+      "name": "Труба по потолку Ø110",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 135000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_022",
+      "name": "Труба по потолку Ø125",
+      "description": "на клипсах, металлических хомутах",
+      "unit": "м.п",
+      "priceKopecks": 153000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_023",
+      "name": "Теплоизоляция Ø20-Ø40",
+      "description": "Для систем отопления",
+      "unit": "м.п",
+      "priceKopecks": 4500,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_024",
+      "name": "Теплоизоляция Ø50",
+      "description": "Для систем отопления",
+      "unit": "м.п",
+      "priceKopecks": 5000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_025",
+      "name": "Теплоизоляция Ø63",
+      "description": "Для систем отопления",
+      "unit": "м.п",
+      "priceKopecks": 6300,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_026",
+      "name": "Теплоизоляция Ø75",
+      "description": "Для систем отопления",
+      "unit": "м.п",
+      "priceKopecks": 7200,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_027",
+      "name": "Теплоизоляция Ø90",
+      "description": "Для систем отопления",
+      "unit": "м.п",
+      "priceKopecks": 8100,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_028",
+      "name": "Теплоизоляция Ø110",
+      "description": "Для систем отопления",
+      "unit": "м.п",
+      "priceKopecks": 9000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_029",
+      "name": "Утепление усиленное Ø20-Ø40",
+      "description": "Для систем теплоснабжения и хладоснабжения",
+      "unit": "м.п",
+      "priceKopecks": 9900,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_030",
+      "name": "Утепление усиленное Ø50",
+      "description": "Для систем теплоснабжения и хладоснабжения",
+      "unit": "м.п",
+      "priceKopecks": 10800,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_031",
+      "name": "Утепление усиленное Ø63",
+      "description": "Для систем теплоснабжения и хладоснабжения",
+      "unit": "м.п",
+      "priceKopecks": 18000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_032",
+      "name": "Утепление усиленное Ø75",
+      "description": "Для систем теплоснабжения и хладоснабжения",
+      "unit": "м.п",
+      "priceKopecks": 22500,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_033",
+      "name": "Утепление усиленное Ø90",
+      "description": "Для систем теплоснабжения и хладоснабжения",
+      "unit": "м.п",
+      "priceKopecks": 27000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "pipes_034",
+      "name": "Утепление усиленное Ø110",
+      "description": "Для систем теплоснабжения и хладоснабжения",
+      "unit": "м.п",
+      "priceKopecks": 36000,
+      "categoryId": "pipes",
+      "type": "service"
+    },
+    {
+      "id": "filtr_001",
+      "name": "Колонный фильтр (1 колонна)",
+      "description": "Обвязка, засыпка, пусконаладка",
+      "unit": "шт",
+      "priceKopecks": 1350000,
+      "categoryId": "filtration",
+      "type": "service"
+    },
+    {
+      "id": "filtr_002",
+      "name": "Кабинетный фильтр",
+      "description": "Обвязка, засыпка, пусконаладка",
+      "unit": "шт",
+      "priceKopecks": 1080000,
+      "categoryId": "filtration",
+      "type": "service"
+    },
+    {
+      "id": "filtr_003",
+      "name": "Солевой бак",
+      "description": "Обвязка, засыпка",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "filtration",
+      "type": "service"
+    },
+    {
+      "id": "filtr_004",
+      "name": "Ультрафиолетовая лампа",
+      "description": "Разъемные соединения, отсекающие краны",
+      "unit": "шт",
+      "priceKopecks": 360000,
+      "categoryId": "filtration",
+      "type": "service"
+    },
+    {
+      "id": "filtr_005",
+      "name": "Магистральный фильтр (большая колба)",
+      "description": "Разъемные соединения, отсекающие краны",
+      "unit": "шт",
+      "priceKopecks": 360000,
+      "categoryId": "filtration",
+      "type": "service"
+    },
+    {
+      "id": "filtr_006",
+      "name": "Фильтр картриджный (маленькая колба)",
+      "description": "Разъемные соединения, отсекающие краны",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "filtration",
+      "type": "service"
+    },
+    {
+      "id": "filtr_007",
+      "name": "Фильтр сетчатый косой",
+      "description": "Разъемные соединения, отсекающие краны",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "filtration",
+      "type": "service"
+    },
+    {
+      "id": "filtr_008",
+      "name": "Фильтр самопромывной",
+      "description": "Разъемные соединения, отсекающие краны",
+      "unit": "шт",
+      "priceKopecks": 315000,
+      "categoryId": "filtration",
+      "type": "service"
+    },
+    {
+      "id": "filtr_009",
+      "name": "Кухонный фильтр 3-х ступенчатый",
+      "description": "Сборка, установка, подключение",
+      "unit": "комп",
+      "priceKopecks": 360000,
+      "categoryId": "filtration",
+      "type": "service"
+    },
+    {
+      "id": "filtr_010",
+      "name": "Обратный осмос",
+      "description": "Сборка, установка, подключение",
+      "unit": "комп",
+      "priceKopecks": 540000,
+      "categoryId": "filtration",
+      "type": "service"
+    },
+    {
+      "id": "auto_001",
+      "name": "Датчик уличной температуры",
+      "description": "монтаж, подключение",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_002",
+      "name": "Датчик температуры бойлера (БКН)",
+      "description": "электроподключение",
+      "unit": "шт",
+      "priceKopecks": 225000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_003",
+      "name": "Комнатный термостат",
+      "description": "монтаж, подключение",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_004",
+      "name": "Автоматика котла и отопления",
+      "description": "сборка, монтаж, подключение, настройка",
+      "unit": "шт",
+      "priceKopecks": 1800000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_005",
+      "name": "Сервопривод коллектора",
+      "description": "установка, подключение",
+      "unit": "шт",
+      "priceKopecks": 90000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_006",
+      "name": "Зональное управление",
+      "description": "термостат, датчик, проводка, сервопривод",
+      "unit": "комп",
+      "priceKopecks": 720000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_007",
+      "name": "Система антипротечки",
+      "description": "установка, подключение комплекта",
+      "unit": "комп",
+      "priceKopecks": 675000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_008",
+      "name": "Коммутатор, контроллер (6-8 выводов)",
+      "description": "монтаж, подключение, настройка",
+      "unit": "комп",
+      "priceKopecks": 675000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_009",
+      "name": "Дополнительный модуль к контроллеру",
+      "description": "монтаж, подключение, настройка",
+      "unit": "комп",
+      "priceKopecks": 450000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_010",
+      "name": "Автоматика насоса водоснабжения",
+      "description": "установка реле давления, сухого хода",
+      "unit": "шт",
+      "priceKopecks": 225000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_011",
+      "name": "Радиаторная термоголовка",
+      "description": "установка",
+      "unit": "шт",
+      "priceKopecks": 45000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_012",
+      "name": "Запуск настенного котла",
+      "description": "электроподключение, настройка мощности, расширительный бак",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_013",
+      "name": "Запуск напольного котла",
+      "description": "электроподключение котла, насоса, расширительный бак",
+      "unit": "шт",
+      "priceKopecks": 315000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_014",
+      "name": "Опрессовка отопления (до 7 радиаторов)",
+      "description": "заполнение системы, устранение утечек, балансировка",
+      "unit": "шт",
+      "priceKopecks": 225000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "auto_015",
+      "name": "Заполнение теплоносителем",
+      "description": "С оборудованием для опрессовки и заливки",
+      "unit": "литр",
+      "priceKopecks": 6000,
+      "categoryId": "automation",
+      "type": "service"
+    },
+    {
+      "id": "groove_001",
+      "name": "Штроба Ø16-Ø32 пеноблок",
+      "description": "Штробление с резкой, сбор мусора в мешки",
+      "unit": "м.п",
+      "priceKopecks": 81000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_002",
+      "name": "Штроба Ø16-Ø32 кирпич",
+      "description": "Штробление с резкой, сбор мусора в мешки",
+      "unit": "м.п",
+      "priceKopecks": 117000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_003",
+      "name": "Штроба Ø16-Ø32 бетон",
+      "description": "Штробление с резкой, сбор мусора в мешки",
+      "unit": "м.п",
+      "priceKopecks": 153000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_004",
+      "name": "Штроба Ø40-Ø63 пеноблок",
+      "description": "Штробление с резкой, сбор мусора в мешки",
+      "unit": "м.п",
+      "priceKopecks": 90000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_005",
+      "name": "Штроба Ø40-Ø63 кирпич",
+      "description": "Штробление с резкой, сбор мусора в мешки",
+      "unit": "м.п",
+      "priceKopecks": 135000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_006",
+      "name": "Штроба Ø40-Ø63 бетон",
+      "description": "Штробление с резкой, сбор мусора в мешки",
+      "unit": "м.п",
+      "priceKopecks": 162000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_007",
+      "name": "Штроба Ø75-Ø110 пеноблок",
+      "description": "Штробление с резкой, сбор мусора в мешки",
+      "unit": "м.п",
+      "priceKopecks": 135000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_008",
+      "name": "Штроба Ø75-Ø110 кирпич",
+      "description": "Штробление с резкой, сбор мусора в мешки",
+      "unit": "м.п",
+      "priceKopecks": 180000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_009",
+      "name": "Штроба Ø75-Ø110 бетон",
+      "description": "Штробление с резкой, сбор мусора в мешки",
+      "unit": "м.п",
+      "priceKopecks": 225000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_010",
+      "name": "Штроба 120x120 - 120x400 пеноблок",
+      "description": "Штробление с резкой, сбор мусора в мешки",
+      "unit": "м.п",
+      "priceKopecks": 180000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_011",
+      "name": "Штроба 120x120 - 120x400 кирпич",
+      "description": "Штробление с резкой, сбор мусора в мешки",
+      "unit": "м.п",
+      "priceKopecks": 243000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_012",
+      "name": "Штроба 120x120 - 120x400 бетон",
+      "description": "Штробление с резкой, сбор мусора в мешки",
+      "unit": "м.п",
+      "priceKopecks": 360000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_013",
+      "name": "Отверстие Ø25-Ø82 пеноблок 10см",
+      "description": "Сверление, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 45000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_014",
+      "name": "Отверстие Ø25-Ø82 пеноблок 20см",
+      "description": "Сверление, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 67500,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_015",
+      "name": "Отверстие Ø25-Ø82 пеноблок 40см",
+      "description": "Сверление, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 112500,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_016",
+      "name": "Отверстие Ø25-Ø82 кирпич 10см",
+      "description": "Сверление, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 67500,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_017",
+      "name": "Отверстие Ø25-Ø82 кирпич 20см",
+      "description": "Сверление, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 90000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_018",
+      "name": "Отверстие Ø25-Ø82 кирпич 40см",
+      "description": "Сверление, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 135000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_019",
+      "name": "Отверстие Ø25-Ø82 бетон 10см",
+      "description": "Сверление, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 90000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_020",
+      "name": "Отверстие Ø25-Ø82 бетон 20см",
+      "description": "Сверление, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 135000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_021",
+      "name": "Отверстие Ø25-Ø82 бетон 40см",
+      "description": "Сверление, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 225000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_022",
+      "name": "Отверстие Ø92-Ø132 пеноблок 10см",
+      "description": "Алмазное бурение, сбор мусора",
+      "unit": "шт",
+      "priceKopecks": 45000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_023",
+      "name": "Отверстие Ø92-Ø132 пеноблок 20см",
+      "description": "Алмазное бурение, сбор мусора",
+      "unit": "шт",
+      "priceKopecks": 81000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_024",
+      "name": "Отверстие Ø92-Ø132 пеноблок 40см",
+      "description": "Алмазное бурение, сбор мусора",
+      "unit": "шт",
+      "priceKopecks": 153000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_025",
+      "name": "Отверстие Ø92-Ø132 кирпич 10см",
+      "description": "Алмазное бурение, сбор мусора",
+      "unit": "шт",
+      "priceKopecks": 63000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_026",
+      "name": "Отверстие Ø92-Ø132 кирпич 20см",
+      "description": "Алмазное бурение, сбор мусора",
+      "unit": "шт",
+      "priceKopecks": 117000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_027",
+      "name": "Отверстие Ø92-Ø132 кирпич 40см",
+      "description": "Алмазное бурение, сбор мусора",
+      "unit": "шт",
+      "priceKopecks": 225000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_028",
+      "name": "Отверстие Ø92-Ø132 бетон 10см",
+      "description": "Алмазное бурение, сбор мусора",
+      "unit": "шт",
+      "priceKopecks": 153000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_029",
+      "name": "Отверстие Ø92-Ø132 бетон 20см",
+      "description": "Алмазное бурение, сбор мусора",
+      "unit": "шт",
+      "priceKopecks": 207000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_030",
+      "name": "Отверстие Ø92-Ø132 бетон 40см",
+      "description": "Алмазное бурение, сбор мусора",
+      "unit": "шт",
+      "priceKopecks": 315000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_031",
+      "name": "Ниша под ШРВ (кирпич) №1,№2,№3",
+      "description": "Штробление, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_032",
+      "name": "Ниша под ШРВ (кирпич) №4,№5",
+      "description": "Штробление, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 495000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_033",
+      "name": "Ниша под ШРВ (кирпич) №6,№7",
+      "description": "Штробление, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 540000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_034",
+      "name": "Пробивка 100x100 пеноблок",
+      "description": "Пробивка, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 90000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_035",
+      "name": "Пробивка 100x100 кирпич",
+      "description": "Пробивка, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 153000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_036",
+      "name": "Пробивка 100x100 бетон",
+      "description": "Пробивка, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_037",
+      "name": "Пробивка 100x200 пеноблок",
+      "description": "Пробивка, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 108000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_038",
+      "name": "Пробивка 100x200 кирпич",
+      "description": "Пробивка, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 162000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_039",
+      "name": "Пробивка 100x200 бетон",
+      "description": "Пробивка, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 198000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_040",
+      "name": "Пробивка 200x200 пеноблок",
+      "description": "Пробивка, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 135000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_041",
+      "name": "Пробивка 200x200 кирпич",
+      "description": "Пробивка, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_042",
+      "name": "Пробивка 200x200 бетон",
+      "description": "Пробивка, сбор мусора в мешки",
+      "unit": "шт",
+      "priceKopecks": 225000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "groove_043",
+      "name": "Замазка штроб",
+      "description": "Заделка цементно-песчаной смесью / штукатуркой",
+      "unit": "м.п",
+      "priceKopecks": 45000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "serv_001",
+      "name": "Выезд мастера",
+      "description": "на диагностику, сервис, ремонт",
+      "unit": "выезд",
+      "priceKopecks": 180000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_002",
+      "name": "Замена турбины",
+      "description": "в зависимости от модели котла",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_003",
+      "name": "Замена датчиков",
+      "description": "в зависимости от модели котла",
+      "unit": "шт",
+      "priceKopecks": 72000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_004",
+      "name": "Замена насоса наст. котла",
+      "description": "в зависимости от модели котла",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_005",
+      "name": "Замена платы котла",
+      "description": "в зависимости от модели котла",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_006",
+      "name": "Замена 3-ходового крана",
+      "description": "в зависимости от модели котла",
+      "unit": "шт",
+      "priceKopecks": 135000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_007",
+      "name": "Замена газового клапана",
+      "description": "в зависимости от модели котла",
+      "unit": "шт",
+      "priceKopecks": 90000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_008",
+      "name": "Замена сервопривода",
+      "description": "в зависимости от модели котла",
+      "unit": "шт",
+      "priceKopecks": 135000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_009",
+      "name": "Замена крана подпитки",
+      "description": "в зависимости от модели котла",
+      "unit": "шт",
+      "priceKopecks": 135000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_010",
+      "name": "Замена теплообменника",
+      "description": "в зависимости от модели котла",
+      "unit": "шт",
+      "priceKopecks": 225000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_011",
+      "name": "Замена вторичного теплообменника",
+      "description": "в зависимости от модели котла",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_012",
+      "name": "Диагностика с демонтажем и установкой",
+      "description": "снять, проверить, установить",
+      "unit": "шт",
+      "priceKopecks": 630000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_013",
+      "name": "Тепловизионное обследование",
+      "description": "Поиск скрытых утечек теплоносителя, проверка работы теплого пола",
+      "unit": "выезд",
+      "priceKopecks": 450000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_014",
+      "name": "Видеоинспекция (телеинспекция) труб",
+      "description": "Осмотр труб канализации или вентиляции изнутри видеоэндоскопом",
+      "unit": "метр",
+      "priceKopecks": 45000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_015",
+      "name": "Гидропневматическая промывка отопления",
+      "description": "Промывка системы спец. компрессором от ила и накипи",
+      "unit": "контур",
+      "priceKopecks": 270000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_016",
+      "name": "Химическая промывка теплообменника",
+      "description": "Очистка первичного/вторичного теплообменника котла спец. раствором",
+      "unit": "шт",
+      "priceKopecks": 405000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_017",
+      "name": "Замена магниевого анода в бойлере",
+      "description": "Со сливом воды и демонтажем фланца (без стоимости анода)",
+      "unit": "шт",
+      "priceKopecks": 225000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "serv_018",
+      "name": "Годовое ТО котельной",
+      "description": "Чистка фильтров, проверка давления в РБ, осмотр горелки, диагностика",
+      "unit": "шт",
+      "priceKopecks": 720000,
+      "categoryId": "service",
+      "type": "service"
+    },
+    {
+      "id": "plumb_001",
+      "name": "Скрытый сифон",
+      "description": "для стиральных, посудомоечных машин",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_002",
+      "name": "Инсталляция рамы унитаза",
+      "description": "Установка с подводкой",
+      "unit": "шт",
+      "priceKopecks": 720000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_003",
+      "name": "Чаша на инсталляцию",
+      "description": "установка",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_004",
+      "name": "Унитаз",
+      "description": "Сборка, установка",
+      "unit": "шт",
+      "priceKopecks": 360000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_005",
+      "name": "Чаша подвесная",
+      "description": "Сборка, установка",
+      "unit": "шт",
+      "priceKopecks": 585000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_006",
+      "name": "Раковина с тумбой и зеркалом",
+      "description": "От сложности",
+      "unit": "шт",
+      "priceKopecks": 900000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_007",
+      "name": "Зеркало",
+      "description": "установка",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_008",
+      "name": "Умывальник с полупьедесталом",
+      "description": "установка без смесителя, сборка сифона",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_009",
+      "name": "Умывальник",
+      "description": "установка без смесителя, сборка сифона",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_010",
+      "name": "Биде",
+      "description": "установка без смесителя",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_011",
+      "name": "Писсуар",
+      "description": "установка",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_012",
+      "name": "Установка скрытого смесителя для умывальника (раковины)",
+      "description": "Установка скрытого смесителя для раковины",
+      "unit": "шт",
+      "priceKopecks": 200000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_013",
+      "name": "Установка скрытого смесителя для тропического душа",
+      "description": "Установка скрытого смесителя для тропического душа",
+      "unit": "шт",
+      "priceKopecks": 350000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_014",
+      "name": "Установка скрытого смесителя для гигиенического душа",
+      "description": "Установка скрытого смесителя для гигиенического душа",
+      "unit": "шт",
+      "priceKopecks": 150000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_015",
+      "name": "Смеситель",
+      "description": "на раковину, умывальник, биде",
+      "unit": "шт",
+      "priceKopecks": 225000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_016",
+      "name": "Душевая стойка",
+      "description": "сборка, установка",
+      "unit": "шт",
+      "priceKopecks": 360000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_017",
+      "name": "Душевая кабина",
+      "description": "от сложности",
+      "unit": "шт",
+      "priceKopecks": 900000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_018",
+      "name": "Поддон",
+      "description": "от сложности",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_019",
+      "name": "Стиральная, посудомоечная машина",
+      "description": "установить и подключить",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_020",
+      "name": "Полотенцесушитель водяной",
+      "description": "От сложности",
+      "unit": "шт",
+      "priceKopecks": 360000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_021",
+      "name": "Полотенцесушитель электрический",
+      "description": "От сложности",
+      "unit": "шт",
+      "priceKopecks": 270000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_022",
+      "name": "Аксессуары",
+      "description": "от сложности",
+      "unit": "шт",
+      "priceKopecks": 90000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_023",
+      "name": "Сверление керамогранита / кафеля Ø6-10мм",
+      "description": "Сверление отверстий",
+      "unit": "отверстие",
+      "priceKopecks": 18000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_024",
+      "name": "Ванна (металлическая, чугунная, акриловая)",
+      "description": "от сложности",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "plumbing",
+      "type": "service"
+    },
+    {
+      "id": "plumb_025",
+      "name": "Ванна акриловая с джакузи",
+      "description": "сборка, установка от сложности",
+      "unit": "шт",
+      "priceKopecks": 900000,
+      "categoryId": "plumbing",
+      "type": "service"
+    }
+  ]
 }
