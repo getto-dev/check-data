@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "electrical",
+  "name": "Электрика",
+  "version": "1.0.0",
+  "locale": "ru-RU",
+  "currency": "RUB",
+  "files": {
+    "catalog": "catalog.json",
+    "categories": "categories.json",
+    "synonyms": "search-synonyms.json",
+    "config": "config.json"
+  },
+  "itemCount": 24
+}
