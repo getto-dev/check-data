@@ -7,6 +7,13 @@
       "version": "1.0.0",
       "manifest": "plumbing/manifest.json",
       "itemCount": 271
+    },
+    {
+      "id": "electrical",
+      "name": "Электрика",
+      "version": "1.0.0",
+      "manifest": "electrical/manifest.json",
+      "itemCount": 24
     }
   ]
 }
