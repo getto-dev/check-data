@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {"id":"heating","name":"Отопление"},
+    {"id":"floor_heat","name":"Теплый пол"},
+    {"id":"water","name":"Водоснабжение"},
+    {"id":"boilers","name":"Котельные"},
+    {"id":"chimneys","name":"Дымоходы"},
+    {"id":"sewerage","name":"Канализация"},
+    {"id":"pipes","name":"Прокладка труб"},
+    {"id":"filtration","name":"Водоочистка"},
+    {"id":"automation","name":"Автоматика"},
+    {"id":"grooving","name":"Штробление"},
+    {"id":"service","name":"Сервис"},
+    {"id":"plumbing","name":"Сантехника"}
+  ]
+}
