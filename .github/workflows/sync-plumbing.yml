@@ -1,35 +1,31 @@
-name: Sync plumbing dataset
+name: Validate datasets
 
 on:
   push:
-    paths-ignore:
-      - 'plumbing/**'
+    paths:
       - 'index.json'
+      - 'schema/**'
+      - 'plumbing/**'
+      - 'scripts/validate-dataset.mjs'
+      - '.github/workflows/sync-plumbing.yml'
+  pull_request:
+    paths:
+      - 'index.json'
+      - 'schema/**'
+      - 'plumbing/**'
+      - 'scripts/validate-dataset.mjs'
+      - '.github/workflows/sync-plumbing.yml'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  sync:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Sync from check catalog
-        run: node scripts/sync-plumbing.mjs
-
-      - name: Commit changes
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add index.json plumbing/
-          if git diff --cached --quiet; then
-            echo 'No dataset changes.'
-            exit 0
-          fi
-          git commit -m 'chore: sync plumbing dataset'
-          git push
+      - name: Validate dataset
+        run: node scripts/validate-dataset.mjs
