@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "profiles": [
+    {
+      "id": "plumbing",
+      "name": "Сантехника",
+      "version": "0.1.0",
+      "manifest": "plumbing/manifest.json"
+    }
+  ]
+}
