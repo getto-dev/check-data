@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "profileId": "electrical",
+  "name": "Электрика",
+  "locale": "ru-RU",
+  "currency": "RUB",
+  "features": {
+    "services": true,
+    "materials": true,
+    "laborRates": true
+  }
+}
