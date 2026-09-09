@@ -1,16 +1,81 @@
 {
   "schemaVersion": 1,
   "categories": [
-    {"id":"sockets","name":"Розетки"},
-    {"id":"switches","name":"Выключатели"},
-    {"id":"lighting","name":"Освещение"},
-    {"id":"protection","name":"Защита и автоматика"},
-    {"id":"panels","name":"Электрические щиты"},
-    {"id":"cabling","name":"Кабель и проводка"},
-    {"id":"installation","name":"Монтажные работы"},
-    {"id":"low_current","name":"Слаботочные системы"},
-    {"id":"automation","name":"Автоматизация"},
-    {"id":"ventilation","name":"Вентиляция"},
-    {"id":"service","name":"Сервис"}
+    {
+      "id": "main",
+      "name": "Основные позиции"
+    },
+    {
+      "id": "cable",
+      "name": "Монтаж кабеля"
+    },
+    {
+      "id": "low_voltage",
+      "name": "Слаботочные сети"
+    },
+    {
+      "id": "sip",
+      "name": "Монтаж СИП кабеля"
+    },
+    {
+      "id": "cable_channel",
+      "name": "Монтаж кабель-канала"
+    },
+    {
+      "id": "retro",
+      "name": "Монтаж ретро проводки"
+    },
+    {
+      "id": "grooving",
+      "name": "Штробление"
+    },
+    {
+      "id": "holes",
+      "name": "Тех. отверстия"
+    },
+    {
+      "id": "trays",
+      "name": "Монтаж лотков"
+    },
+    {
+      "id": "boxes",
+      "name": "Ниша для щита"
+    },
+    {
+      "id": "socket_holes",
+      "name": "Подрозетники"
+    },
+    {
+      "id": "sockets_switches",
+      "name": "Розетки/Выключатели"
+    },
+    {
+      "id": "lighting",
+      "name": "Светильники"
+    },
+    {
+      "id": "led_strip",
+      "name": "Светодиодная лента"
+    },
+    {
+      "id": "avr",
+      "name": "АВР"
+    },
+    {
+      "id": "grounding",
+      "name": "Заземление"
+    },
+    {
+      "id": "meters",
+      "name": "Счётчики"
+    },
+    {
+      "id": "switchgear",
+      "name": "Силовое оборудование"
+    },
+    {
+      "id": "extra",
+      "name": "Дополнительные работы"
+    }
   ]
 }

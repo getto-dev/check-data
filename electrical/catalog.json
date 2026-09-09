@@ -1,29 +1,1472 @@
 {
   "schemaVersion": 1,
   "items": [
-    {"id":"el_001","name":"Монтаж розетки","description":"Установка и подключение розетки на готовое место","unit":"шт","priceKopecks":80000,"categoryId":"sockets","type":"service"},
-    {"id":"el_002","name":"Монтаж двойной розетки","description":"Установка и подключение двойной розетки на готовое место","unit":"шт","priceKopecks":110000,"categoryId":"sockets","type":"service"},
-    {"id":"el_003","name":"Монтаж выключателя одноклавишного","description":"Установка и подключение выключателя на готовое место","unit":"шт","priceKopecks":70000,"categoryId":"switches","type":"service"},
-    {"id":"el_004","name":"Монтаж выключателя двухклавишного","description":"Установка и подключение двухклавишного выключателя","unit":"шт","priceKopecks":90000,"categoryId":"switches","type":"service"},
-    {"id":"el_005","name":"Монтаж проходного выключателя","description":"Установка и подключение проходного выключателя","unit":"шт","priceKopecks":100000,"categoryId":"switches","type":"service"},
-    {"id":"el_006","name":"Монтаж люстры","description":"Сборка и установка люстры, подключение к существующей точке","unit":"шт","priceKopecks":250000,"categoryId":"lighting","type":"service"},
-    {"id":"el_007","name":"Монтаж светильника","description":"Установка и подключение светильника к готовой точке","unit":"шт","priceKopecks":150000,"categoryId":"lighting","type":"service"},
-    {"id":"el_008","name":"Монтаж точечного светильника","description":"Установка и подключение одного точечного светильника","unit":"шт","priceKopecks":90000,"categoryId":"lighting","type":"service"},
-    {"id":"el_009","name":"Монтаж автоматического выключателя","description":"Установка одного автомата в электрическом щите","unit":"шт","priceKopecks":120000,"categoryId":"protection","type":"service"},
-    {"id":"el_010","name":"Монтаж УЗО","description":"Установка и подключение устройства защитного отключения","unit":"шт","priceKopecks":160000,"categoryId":"protection","type":"service"},
-    {"id":"el_011","name":"Монтаж дифавтомата","description":"Установка и подключение дифференциального автомата","unit":"шт","priceKopecks":170000,"categoryId":"protection","type":"service"},
-    {"id":"el_012","name":"Сборка электрического щита до 12 модулей","description":"Монтаж комплектующих и коммутация внутри щита","unit":"шт","priceKopecks":450000,"categoryId":"panels","type":"service"},
-    {"id":"el_013","name":"Сборка электрического щита до 24 модулей","description":"Монтаж комплектующих и коммутация внутри щита","unit":"шт","priceKopecks":700000,"categoryId":"panels","type":"service"},
-    {"id":"el_014","name":"Монтаж кабеля до 2.5 мм² открытым способом","description":"Прокладка и фиксация кабеля без штробления","unit":"м","priceKopecks":4500,"categoryId":"cabling","type":"service"},
-    {"id":"el_015","name":"Монтаж кабеля до 6 мм² открытым способом","description":"Прокладка и фиксация силового кабеля без штробления","unit":"м","priceKopecks":6500,"categoryId":"cabling","type":"service"},
-    {"id":"el_016","name":"Прокладка кабеля в штробе до 2.5 мм²","description":"Укладка кабеля в подготовленную штробу с фиксацией","unit":"м","priceKopecks":7000,"categoryId":"cabling","type":"service"},
-    {"id":"el_017","name":"Монтаж подрозетника","description":"Установка подрозетника в подготовленное отверстие","unit":"шт","priceKopecks":65000,"categoryId":"installation","type":"service"},
-    {"id":"el_018","name":"Монтаж распределительной коробки","description":"Установка коробки и подготовка к соединению проводов","unit":"шт","priceKopecks":90000,"categoryId":"installation","type":"service"},
-    {"id":"el_019","name":"Соединение проводов в распределительной коробке","description":"Соединение и укладка проводников внутри коробки","unit":"шт","priceKopecks":120000,"categoryId":"installation","type":"service"},
-    {"id":"el_020","name":"Монтаж звонка","description":"Установка и подключение электрического звонка","unit":"шт","priceKopecks":90000,"categoryId":"low_current","type":"service"},
-    {"id":"el_021","name":"Монтаж терморегулятора","description":"Установка и подключение терморегулятора теплого пола","unit":"шт","priceKopecks":110000,"categoryId":"automation","type":"service"},
-    {"id":"el_022","name":"Монтаж датчика движения","description":"Установка и подключение датчика движения","unit":"шт","priceKopecks":120000,"categoryId":"automation","type":"service"},
-    {"id":"el_023","name":"Монтаж вентилятора","description":"Установка и подключение бытового вентилятора","unit":"шт","priceKopecks":150000,"categoryId":"ventilation","type":"service"},
-    {"id":"el_024","name":"Поиск и устранение неисправности линии","description":"Диагностика электрической линии и устранение локальной неисправности","unit":"час","priceKopecks":300000,"categoryId":"service","type":"service"}
+    {
+      "id": "main_001",
+      "name": "Магистраль (до 3х2,5 включительно)",
+      "description": "Основные позиции",
+      "unit": "п/м",
+      "priceKopecks": 12000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_002",
+      "name": "Сборка распаячной коробки",
+      "description": "Основные позиции",
+      "unit": "шт",
+      "priceKopecks": 70000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_003",
+      "name": "Вырез подрозетников по гипсокартону",
+      "description": "Основные позиции",
+      "unit": "шт",
+      "priceKopecks": 15000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_004",
+      "name": "Вырез подрозетников по кирпичу/газоблоку/шлакоблоку",
+      "description": "Основные позиции",
+      "unit": "шт",
+      "priceKopecks": 35000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_005",
+      "name": "Вырез подрозетников по бетону",
+      "description": "Основные позиции",
+      "unit": "шт",
+      "priceKopecks": 45000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_006",
+      "name": "Установка подрозетников",
+      "description": "Основные позиции",
+      "unit": "шт",
+      "priceKopecks": 10000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_007",
+      "name": "Слаботочка",
+      "description": "Основные позиции",
+      "unit": "п/м",
+      "priceKopecks": 10000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_008",
+      "name": "Штробление",
+      "description": "От 250₽",
+      "unit": "п/м",
+      "priceKopecks": 25000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_009",
+      "name": "Штробление бетон",
+      "description": "Основные позиции",
+      "unit": "п/м",
+      "priceKopecks": 60000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_010",
+      "name": "Установка патрона с лампой",
+      "description": "Основные позиции",
+      "unit": "шт",
+      "priceKopecks": 20000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_011",
+      "name": "Установка встраиваемых выключателей/розеток",
+      "description": "От 250₽",
+      "unit": "шт",
+      "priceKopecks": 25000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_012",
+      "name": "Установка накладных выключателей/розеток",
+      "description": "Основные позиции",
+      "unit": "шт",
+      "priceKopecks": 40000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_013",
+      "name": "Монтаж кабель-канала",
+      "description": "От 250₽",
+      "unit": "п/м",
+      "priceKopecks": 25000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_014",
+      "name": "Тех. отверстия",
+      "description": "От 400₽",
+      "unit": "шт",
+      "priceKopecks": 40000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_015",
+      "name": "Ниша под щит 24 мод",
+      "description": "Основные позиции",
+      "unit": "шт",
+      "priceKopecks": 250000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_016",
+      "name": "Установка щита 24 мод",
+      "description": "Основные позиции",
+      "unit": "шт",
+      "priceKopecks": 150000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_017",
+      "name": "Заводка кабеля в гофр. трубу",
+      "description": "От 70₽",
+      "unit": "п/м",
+      "priceKopecks": 7000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "main_018",
+      "name": "Подключение авт. выключателей в щите",
+      "description": "Основные позиции",
+      "unit": "мод",
+      "priceKopecks": 50000,
+      "categoryId": "main",
+      "type": "service"
+    },
+    {
+      "id": "cab_001",
+      "name": "Провод 1 жильный сечением до 16 мм²",
+      "description": "Монтаж провода",
+      "unit": "п/м",
+      "priceKopecks": 8000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_002",
+      "name": "Провод 1 жильный сечением до 25 мм²",
+      "description": "Монтаж провода",
+      "unit": "п/м",
+      "priceKopecks": 9000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_003",
+      "name": "Провод 1 жильный сечением до 50 мм²",
+      "description": "Монтаж провода",
+      "unit": "п/м",
+      "priceKopecks": 12000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_004",
+      "name": "Провод 1 жильный сечением до 95 мм²",
+      "description": "Монтаж провода",
+      "unit": "п/м",
+      "priceKopecks": 17000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_005",
+      "name": "Провод 1 жильный сечением до 120 мм²",
+      "description": "Монтаж провода",
+      "unit": "п/м",
+      "priceKopecks": 23000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_006",
+      "name": "Кабель 2-х жильный сечением до 2,5 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 10000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_007",
+      "name": "Кабель 2-х жильный сечением до 6 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 11000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_008",
+      "name": "Кабель 2-х жильный сечением до 10 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 12000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_009",
+      "name": "Кабель 3-х жильный сечением до 2,5 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 12000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_010",
+      "name": "Кабель 3-х жильный сечением 4 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 13000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_011",
+      "name": "Кабель 3-х жильный сечением 6 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 14000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_012",
+      "name": "Кабель 3-х жильный сечением 10 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 15000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_013",
+      "name": "Кабель 4-х жильный сечением до 4 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 14000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_014",
+      "name": "Кабель 4-х жильный сечением до 10 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 20000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_015",
+      "name": "Кабель 5-и жильный сечением до 4 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 18000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_016",
+      "name": "Кабель 5-и жильный сечением до 10 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 22000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_017",
+      "name": "Кабель 5-и жильный сечением до 16 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 25000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_018",
+      "name": "Кабель 5-и жильный сечением до 35 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 28000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_019",
+      "name": "Кабель 5-и жильный сечением до 50 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 30000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_020",
+      "name": "Кабель 5-и жильный сечением до 95 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 35000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_021",
+      "name": "Кабель 5-и жильный сечением до 120 мм²",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 38000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_022",
+      "name": "Вывод кабеля под розетки выключатели и т.д.",
+      "description": "Монтаж кабеля",
+      "unit": "шт",
+      "priceKopecks": 25000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_023",
+      "name": "Затягивание, закладка кабеля или провода в трубу",
+      "description": "Монтаж кабеля",
+      "unit": "п/м",
+      "priceKopecks": 7000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "cab_024",
+      "name": "Монтаж по потолку (коэф)",
+      "description": "Коэффициент к стоимости кабеля",
+      "unit": "%",
+      "priceKopecks": 4000,
+      "categoryId": "cable",
+      "type": "service"
+    },
+    {
+      "id": "lv_001",
+      "name": "Кабель для ТВ/интернета/видеонаблюдения",
+      "description": "Монтаж слаботочной сети",
+      "unit": "п/м",
+      "priceKopecks": 10000,
+      "categoryId": "low_voltage",
+      "type": "service"
+    },
+    {
+      "id": "sip_001",
+      "name": "2х-4х жильный Ø16-25 (до 100 м)",
+      "description": "Монтаж СИП кабеля",
+      "unit": "п/м",
+      "priceKopecks": 15000,
+      "categoryId": "sip",
+      "type": "service"
+    },
+    {
+      "id": "sip_002",
+      "name": "2х-4х жильный Ø35 (до 100 м)",
+      "description": "Монтаж СИП кабеля",
+      "unit": "п/м",
+      "priceKopecks": 20000,
+      "categoryId": "sip",
+      "type": "service"
+    },
+    {
+      "id": "sip_003",
+      "name": "Фасадный крепёж",
+      "description": "Монтаж СИП кабеля",
+      "unit": "шт",
+      "priceKopecks": 5000,
+      "categoryId": "sip",
+      "type": "service"
+    },
+    {
+      "id": "sip_004",
+      "name": "Гильзование с подключением (свыше 90 сечения 1 жила)",
+      "description": "Опрессовка и гильзование",
+      "unit": "шт",
+      "priceKopecks": 100000,
+      "categoryId": "sip",
+      "type": "service"
+    },
+    {
+      "id": "sip_005",
+      "name": "Гильзование с подключением (до 90 сечения 1 жила)",
+      "description": "Опрессовка и гильзование",
+      "unit": "шт",
+      "priceKopecks": 75000,
+      "categoryId": "sip",
+      "type": "service"
+    },
+    {
+      "id": "sip_006",
+      "name": "Гильзование с подключением (до 50 сечения 1 жила)",
+      "description": "Опрессовка и гильзование",
+      "unit": "шт",
+      "priceKopecks": 50000,
+      "categoryId": "sip",
+      "type": "service"
+    },
+    {
+      "id": "ch_001",
+      "name": "Кабель-канал до 100×60",
+      "description": "Монтаж кабель-канала",
+      "unit": "п/м",
+      "priceKopecks": 30000,
+      "categoryId": "cable_channel",
+      "type": "service"
+    },
+    {
+      "id": "ch_002",
+      "name": "Кабель-канал до 60×40",
+      "description": "Монтаж кабель-канала",
+      "unit": "п/м",
+      "priceKopecks": 25000,
+      "categoryId": "cable_channel",
+      "type": "service"
+    },
+    {
+      "id": "ch_003",
+      "name": "Кабель-канал до 25×16",
+      "description": "Монтаж кабель-канала",
+      "unit": "п/м",
+      "priceKopecks": 20000,
+      "categoryId": "cable_channel",
+      "type": "service"
+    },
+    {
+      "id": "ch_004",
+      "name": "Угол кабель-канала",
+      "description": "Вырезка углов кабель-канала",
+      "unit": "шт",
+      "priceKopecks": 10000,
+      "categoryId": "cable_channel",
+      "type": "service"
+    },
+    {
+      "id": "retro_001",
+      "name": "Монтаж ретро кабеля",
+      "description": "Декоративная ретро проводка",
+      "unit": "п/м",
+      "priceKopecks": 15000,
+      "categoryId": "retro",
+      "type": "service"
+    },
+    {
+      "id": "retro_002",
+      "name": "Установка ретро-распаячной коробки",
+      "description": "Монтаж распределительной коробки",
+      "unit": "шт",
+      "priceKopecks": 50000,
+      "categoryId": "retro",
+      "type": "service"
+    },
+    {
+      "id": "retro_003",
+      "name": "Установка ретро выключателя/розетки",
+      "description": "Монтаж ретро электроустановочных изделий",
+      "unit": "шт",
+      "priceKopecks": 50000,
+      "categoryId": "retro",
+      "type": "service"
+    },
+    {
+      "id": "gr_001",
+      "name": "Штробление по штукатурке/пеноблоку/газоблоку",
+      "description": "Штробление стен",
+      "unit": "п/м",
+      "priceKopecks": 25000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "gr_002",
+      "name": "Штробление по кирпичу",
+      "description": "Штробление стен",
+      "unit": "п/м",
+      "priceKopecks": 35000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "gr_003",
+      "name": "Штробление по бетону",
+      "description": "Штробление стен",
+      "unit": "п/м",
+      "priceKopecks": 60000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "gr_004",
+      "name": "Штробление по панельной плите",
+      "description": "Штробление стен",
+      "unit": "п/м",
+      "priceKopecks": 80000,
+      "categoryId": "grooving",
+      "type": "service"
+    },
+    {
+      "id": "hl_001",
+      "name": "Отверстие газоблок до Ø 20 мм",
+      "description": "Технологические отверстия",
+      "unit": "п/см",
+      "priceKopecks": 1000,
+      "categoryId": "holes",
+      "type": "service"
+    },
+    {
+      "id": "hl_002",
+      "name": "Отверстие кирпич до Ø 20 мм",
+      "description": "Технологические отверстия",
+      "unit": "п/см",
+      "priceKopecks": 1500,
+      "categoryId": "holes",
+      "type": "service"
+    },
+    {
+      "id": "hl_003",
+      "name": "Отверстие бетон до Ø 20 мм",
+      "description": "Технологические отверстия",
+      "unit": "п/см",
+      "priceKopecks": 2000,
+      "categoryId": "holes",
+      "type": "service"
+    },
+    {
+      "id": "tr_001",
+      "name": "Установка кронштейна для лотка",
+      "description": "Монтаж лотков",
+      "unit": "шт",
+      "priceKopecks": 12000,
+      "categoryId": "trays",
+      "type": "service"
+    },
+    {
+      "id": "tr_002",
+      "name": "Лоток металлический ширина до 200 мм (с заводскими поворотами и подъемами включительно)",
+      "description": "Монтаж лотков",
+      "unit": "п/м",
+      "priceKopecks": 30000,
+      "categoryId": "trays",
+      "type": "service"
+    },
+    {
+      "id": "tr_003",
+      "name": "Лоток металлический ширина до 400 мм (с заводскими поворотами и подъёмами включительно)",
+      "description": "Монтаж лотков",
+      "unit": "п/м",
+      "priceKopecks": 40000,
+      "categoryId": "trays",
+      "type": "service"
+    },
+    {
+      "id": "tr_004",
+      "name": "Лоток металлический ширина до 600 мм (с заводскими поворотами и подъёмами включительно)",
+      "description": "Монтаж лотков",
+      "unit": "п/м",
+      "priceKopecks": 55000,
+      "categoryId": "trays",
+      "type": "service"
+    },
+    {
+      "id": "bx_001",
+      "name": "Щит наружный",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 50000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_002",
+      "name": "Щит внутренний до 6 модулей гипсокартон",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 50000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_003",
+      "name": "Щит внутренний до 6 модулей кирпич",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 60000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_004",
+      "name": "Щит внутренний до 6 модулей бетон",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 90000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_005",
+      "name": "Щит внутренний до 12 модулей гипсокартон",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 60000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_006",
+      "name": "Щит внутренний до 12 модулей кирпич",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 120000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_007",
+      "name": "Щит внутренний до 12 модулей бетон",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_008",
+      "name": "Щит внутренний до 24 модулей гипсокартон",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 120000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_009",
+      "name": "Щит внутренний до 24 модулей кирпич",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 250000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_010",
+      "name": "Щит внутренний до 24 модулей бетон",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 360000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_011",
+      "name": "Щит внутренний до 36 модулей гипсокартон",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_012",
+      "name": "Щит внутренний до 36 модулей кирпич",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 360000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_013",
+      "name": "Щит внутренний до 36 модулей бетон",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 540000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_014",
+      "name": "Щит внутренний до 54 модулей гипсокартон",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 350000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_015",
+      "name": "Щит внутренний до 54 модулей кирпич",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_016",
+      "name": "Щит внутренний до 54 модулей бетон",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 580000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_017",
+      "name": "Щит внутренний до 96 модулей гипсокартон",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 590000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_018",
+      "name": "Щит внутренний до 96 модулей кирпич",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 750000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "bx_019",
+      "name": "Щит внутренний до 96 модулей бетон",
+      "description": "Ниша для щита",
+      "unit": "шт",
+      "priceKopecks": 950000,
+      "categoryId": "boxes",
+      "type": "service"
+    },
+    {
+      "id": "sh_001",
+      "name": "По гипсокартону Ø 75 мм",
+      "description": "Высверливание лунок и установка подрозетников",
+      "unit": "шт",
+      "priceKopecks": 20000,
+      "categoryId": "socket_holes",
+      "type": "service"
+    },
+    {
+      "id": "sh_002",
+      "name": "По кирпичу/дереву Ø 75 мм",
+      "description": "Высверливание лунок и установка подрозетников",
+      "unit": "шт",
+      "priceKopecks": 35000,
+      "categoryId": "socket_holes",
+      "type": "service"
+    },
+    {
+      "id": "sh_003",
+      "name": "По бетону Ø 75 мм",
+      "description": "Высверливание лунок и установка подрозетников",
+      "unit": "шт",
+      "priceKopecks": 45000,
+      "categoryId": "socket_holes",
+      "type": "service"
+    },
+    {
+      "id": "sh_004",
+      "name": "По кирпичу/дереву углублённые Ø 75 мм",
+      "description": "Высверливание лунок и установка подрозетников",
+      "unit": "шт",
+      "priceKopecks": 40000,
+      "categoryId": "socket_holes",
+      "type": "service"
+    },
+    {
+      "id": "sh_005",
+      "name": "По бетону углублённые Ø 75 мм",
+      "description": "Высверливание лунок и установка подрозетников",
+      "unit": "шт",
+      "priceKopecks": 55000,
+      "categoryId": "socket_holes",
+      "type": "service"
+    },
+    {
+      "id": "sh_006",
+      "name": "По панельной плите Ø 75 мм",
+      "description": "Высверливание лунок и установка подрозетников",
+      "unit": "шт",
+      "priceKopecks": 60000,
+      "categoryId": "socket_holes",
+      "type": "service"
+    },
+    {
+      "id": "sh_007",
+      "name": "Установка подрозетников в бетон, кирпич, пеноблок и т.д.",
+      "description": "Монтаж подрозетников",
+      "unit": "шт",
+      "priceKopecks": 10000,
+      "categoryId": "socket_holes",
+      "type": "service"
+    },
+    {
+      "id": "ss_001",
+      "name": "Установка розеток, выключателей (наружные)",
+      "description": "Подключение и установка",
+      "unit": "шт",
+      "priceKopecks": 35000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_002",
+      "name": "Установка розеток, выключателей (внутренние)",
+      "description": "Подключение и установка",
+      "unit": "шт",
+      "priceKopecks": 25000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_003",
+      "name": "Установка компьютерной розетки (интернет)",
+      "description": "Подключение и установка",
+      "unit": "шт",
+      "priceKopecks": 50000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_004",
+      "name": "Установка розетки TV",
+      "description": "Подключение и установка",
+      "unit": "шт",
+      "priceKopecks": 30000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_005",
+      "name": "Установка диммера (светорегулятор)",
+      "description": "Подключение и установка",
+      "unit": "шт",
+      "priceKopecks": 10000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_006",
+      "name": "Установка розетки для электроплиты 3х-фазная",
+      "description": "Подключение и установка",
+      "unit": "шт",
+      "priceKopecks": 100000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_007",
+      "name": "Установка электр. замка",
+      "description": "Подключение и установка",
+      "unit": "шт",
+      "priceKopecks": 220000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_008",
+      "name": "Расключение распред. коробки для проходного выключателя одноклавишного",
+      "description": "Расключение",
+      "unit": "шт",
+      "priceKopecks": 70000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_009",
+      "name": "Расключение распред. коробки для проходного выключателя двухклавишного",
+      "description": "Расключение",
+      "unit": "шт",
+      "priceKopecks": 150000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_010",
+      "name": "Расключение распред. коробки для перекрёстного выключателя одноклавишного",
+      "description": "Расключение",
+      "unit": "шт",
+      "priceKopecks": 180000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_011",
+      "name": "Расключение распред. коробки для перекрёстного выключателя двухклавишного",
+      "description": "Расключение",
+      "unit": "шт",
+      "priceKopecks": 200000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_012",
+      "name": "Установка проходного переключателя внутреннего одноклавишного",
+      "description": "Подключение и установка",
+      "unit": "шт",
+      "priceKopecks": 30000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_013",
+      "name": "Установка проходного переключателя внутреннего двухклавишного",
+      "description": "Подключение и установка",
+      "unit": "шт",
+      "priceKopecks": 30000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_014",
+      "name": "Установка перекрёстного внутреннего одноклавишного",
+      "description": "Подключение и установка",
+      "unit": "шт",
+      "priceKopecks": 35000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_015",
+      "name": "Установка перекрёстного внутреннего двухклавишного",
+      "description": "Подключение и установка",
+      "unit": "шт",
+      "priceKopecks": 50000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_016",
+      "name": "Подключение пица печи, эл. плиты и прочего теплового 3-х фазного оборудования",
+      "description": "От 2000₽",
+      "unit": "шт",
+      "priceKopecks": 200000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_017",
+      "name": "Установка телевизионного краба",
+      "description": "Подключение и установка",
+      "unit": "шт",
+      "priceKopecks": 100000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_018",
+      "name": "Установка реостата для пола (терморегулятор)",
+      "description": "Подключение и установка",
+      "unit": "шт",
+      "priceKopecks": 100000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_019",
+      "name": "Подключение пароконвектомата",
+      "description": "От 3000₽",
+      "unit": "шт",
+      "priceKopecks": 300000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_020",
+      "name": "Подключение пищеварочного котла",
+      "description": "От 3000₽",
+      "unit": "шт",
+      "priceKopecks": 300000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "ss_021",
+      "name": "Подключение индукционной плиты",
+      "description": "От 2500₽",
+      "unit": "шт",
+      "priceKopecks": 250000,
+      "categoryId": "sockets_switches",
+      "type": "service"
+    },
+    {
+      "id": "lt_001",
+      "name": "Монтаж патрона с лампой",
+      "description": "Установка осветительных приборов",
+      "unit": "шт",
+      "priceKopecks": 10000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_002",
+      "name": "Точечные галогеновые светильники",
+      "description": "Установка осветительных приборов",
+      "unit": "шт",
+      "priceKopecks": 40000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_003",
+      "name": "Светильник настенный (бра)",
+      "description": "От 700₽",
+      "unit": "шт",
+      "priceKopecks": 70000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_004",
+      "name": "Монтаж крюка под люстру",
+      "description": "Установка осветительных приборов",
+      "unit": "шт",
+      "priceKopecks": 80000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_005",
+      "name": "Люстра сборка 1 рожок",
+      "description": "Установка осветительных приборов",
+      "unit": "шт",
+      "priceKopecks": 40000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_006",
+      "name": "Люстра с креплением на крюк",
+      "description": "Установка осветительных приборов",
+      "unit": "шт",
+      "priceKopecks": 150000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_007",
+      "name": "Люстра с креплением к потолку (сложная, с пультом д.у.)",
+      "description": "От 2000₽",
+      "unit": "шт",
+      "priceKopecks": 200000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_008",
+      "name": "Высверливание отверстий под точечный светильник",
+      "description": "От 300₽",
+      "unit": "шт",
+      "priceKopecks": 30000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_009",
+      "name": "Светильник Армстронг LED",
+      "description": "Установка осветительных приборов",
+      "unit": "шт",
+      "priceKopecks": 60000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_010",
+      "name": "Светильник Армстронг LED на тросах",
+      "description": "Установка осветительных приборов",
+      "unit": "шт",
+      "priceKopecks": 100000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_011",
+      "name": "Прожектор светодиодный (кобра)",
+      "description": "Установка осветительных приборов",
+      "unit": "шт",
+      "priceKopecks": 200000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_012",
+      "name": "Фотореле",
+      "description": "От 700₽",
+      "unit": "шт",
+      "priceKopecks": 70000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_013",
+      "name": "Монтаж точечных светильников",
+      "description": "От 800₽",
+      "unit": "шт",
+      "priceKopecks": 80000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_014",
+      "name": "Монтаж трековых светильников",
+      "description": "От 150₽",
+      "unit": "шт",
+      "priceKopecks": 15000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "lt_015",
+      "name": "Монтаж реек для трековых светильников",
+      "description": "От 1200₽",
+      "unit": "п/м",
+      "priceKopecks": 120000,
+      "categoryId": "lighting",
+      "type": "service"
+    },
+    {
+      "id": "led_001",
+      "name": "Блок питания",
+      "description": "Монтаж светодиодной ленты",
+      "unit": "шт",
+      "priceKopecks": 100000,
+      "categoryId": "led_strip",
+      "type": "service"
+    },
+    {
+      "id": "led_002",
+      "name": "Светодиодная лента",
+      "description": "Монтаж светодиодной ленты",
+      "unit": "п/м",
+      "priceKopecks": 30000,
+      "categoryId": "led_strip",
+      "type": "service"
+    },
+    {
+      "id": "led_003",
+      "name": "Светодиодная лента RGB",
+      "description": "Монтаж светодиодной ленты",
+      "unit": "п/м",
+      "priceKopecks": 40000,
+      "categoryId": "led_strip",
+      "type": "service"
+    },
+    {
+      "id": "led_004",
+      "name": "Усилитель",
+      "description": "Монтаж светодиодной ленты",
+      "unit": "шт",
+      "priceKopecks": 100000,
+      "categoryId": "led_strip",
+      "type": "service"
+    },
+    {
+      "id": "led_005",
+      "name": "Блок драйвера",
+      "description": "Монтаж светодиодной ленты",
+      "unit": "шт",
+      "priceKopecks": 80000,
+      "categoryId": "led_strip",
+      "type": "service"
+    },
+    {
+      "id": "avr_001",
+      "name": "На 2 ввода до 63А",
+      "description": "Сборка и установка АВР",
+      "unit": "шт",
+      "priceKopecks": 1500000,
+      "categoryId": "avr",
+      "type": "service"
+    },
+    {
+      "id": "avr_002",
+      "name": "На 3 ввода до 63А",
+      "description": "Сборка и установка АВР",
+      "unit": "шт",
+      "priceKopecks": 2000000,
+      "categoryId": "avr",
+      "type": "service"
+    },
+    {
+      "id": "avr_003",
+      "name": "На 2 ввода до 160А",
+      "description": "Сборка и установка АВР",
+      "unit": "шт",
+      "priceKopecks": 3500000,
+      "categoryId": "avr",
+      "type": "service"
+    },
+    {
+      "id": "avr_004",
+      "name": "На 3 ввода до 160А",
+      "description": "Сборка и установка АВР",
+      "unit": "шт",
+      "priceKopecks": 5500000,
+      "categoryId": "avr",
+      "type": "service"
+    },
+    {
+      "id": "avr_005",
+      "name": "На 2 ввода до 400А",
+      "description": "Сборка и установка АВР",
+      "unit": "шт",
+      "priceKopecks": 6000000,
+      "categoryId": "avr",
+      "type": "service"
+    },
+    {
+      "id": "avr_006",
+      "name": "На 3 ввода до 400А",
+      "description": "Сборка и установка АВР",
+      "unit": "шт",
+      "priceKopecks": 9000000,
+      "categoryId": "avr",
+      "type": "service"
+    },
+    {
+      "id": "gd_001",
+      "name": "Монтаж контура заземления",
+      "description": "От 15000₽",
+      "unit": "комп",
+      "priceKopecks": 1500000,
+      "categoryId": "grounding",
+      "type": "service"
+    },
+    {
+      "id": "mt_001",
+      "name": "Счётчик электрический 1-фазный",
+      "description": "Установка счётчика",
+      "unit": "шт",
+      "priceKopecks": 200000,
+      "categoryId": "meters",
+      "type": "service"
+    },
+    {
+      "id": "mt_002",
+      "name": "Счётчик электрический 3-фазный",
+      "description": "Установка счётчика",
+      "unit": "шт",
+      "priceKopecks": 350000,
+      "categoryId": "meters",
+      "type": "service"
+    },
+    {
+      "id": "sg_001",
+      "name": "Установка РКФ реле контроля фаз",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 100000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_002",
+      "name": "Установка РКН 1-фазный",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 100000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_003",
+      "name": "Подключение авт. выключателя",
+      "description": "Модульная автоматика",
+      "unit": "мод",
+      "priceKopecks": 50000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_004",
+      "name": "Установка рубильника реверсивный до 250А",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 300000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_005",
+      "name": "Установка рубильника до 250А",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 200000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_006",
+      "name": "Установка рубильника до 630А",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 300000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_007",
+      "name": "Установка рубильника реверсивный до 630А",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 450000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_008",
+      "name": "Установка контактора (магнитный пускатель) до 63 А",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 100000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_009",
+      "name": "Установка контактора (магнитный пускатель) до 160 А",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 200000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_010",
+      "name": "Установка контактора (магнитный пускатель) до 250 А",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 250000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_011",
+      "name": "Установка контактора (магнитный пускатель) до 400 А",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 300000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_012",
+      "name": "Установка контактора (магнитный пускатель) до 630 А",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 350000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_013",
+      "name": "Установка ОМ (ограничителя мощности)",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 150000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_014",
+      "name": "Установка ТТ проходной",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 50000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "sg_015",
+      "name": "Установка ТТ с шиной",
+      "description": "Силовое щитовое оборудование",
+      "unit": "шт",
+      "priceKopecks": 100000,
+      "categoryId": "switchgear",
+      "type": "service"
+    },
+    {
+      "id": "ex_001",
+      "name": "Поиск неисправности скрытой проводки",
+      "description": "Диагностика",
+      "unit": "чел/час",
+      "priceKopecks": 100000,
+      "categoryId": "extra",
+      "type": "service"
+    },
+    {
+      "id": "ex_002",
+      "name": "Расчёт сметной стоимости",
+      "description": "Дополнительные работы",
+      "unit": "м²",
+      "priceKopecks": 5000,
+      "categoryId": "extra",
+      "type": "service"
+    },
+    {
+      "id": "ex_003",
+      "name": "Проект-схема монтажа электропроводки",
+      "description": "Дополнительные работы",
+      "unit": "м²",
+      "priceKopecks": 10000,
+      "categoryId": "extra",
+      "type": "service"
+    },
+    {
+      "id": "ex_004",
+      "name": "Пайка/опрессовка",
+      "description": "Дополнительные работы",
+      "unit": "шт",
+      "priceKopecks": 5000,
+      "categoryId": "extra",
+      "type": "service"
+    },
+    {
+      "id": "ex_005",
+      "name": "Расклейка щита",
+      "description": "Дополнительные работы",
+      "unit": "DIN-рейка",
+      "priceKopecks": 20000,
+      "categoryId": "extra",
+      "type": "service"
+    }
   ]
 }
