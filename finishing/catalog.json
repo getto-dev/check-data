@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {"id":"fin-001","name":"Грунтовка стен и потолков глубокого проникновения (1 слой)","description":"Нанесение валиком и кистью с обеспыливанием основания","unit":"м²","priceKopecks":8000,"categoryId":"plaster_paint","type":"service"},
+    {"id":"fin-002","name":"Штукатурка стен по маякам гипсовой смесью (слой до 20 мм)","description":"Установка маяков, нанесение смеси, глянцевание под шпаклевку","unit":"м²","priceKopecks":65000,"categoryId":"plaster_paint","type":"service"},
+    {"id":"fin-003","name":"Штукатурка гипсовая Knauf Ротбанд (30 кг)","description":"Универсальная гипсовая сухая штукатурная смесь","unit":"мешок","priceKopecks":54000,"categoryId":"mixes","type":"material"},
+    {"id":"fin-004","name":"Шпаклевка стен под обои (2 слоя с ошкуриванием)","description":"Базовый и финишный слой со шлифовкой под проявочный свет","unit":"м²","priceKopecks":42000,"categoryId":"plaster_paint","type":"service"},
+    {"id":"fin-005","name":"Шпаклевка стен под покраску со стеклохолстом («паутинка»)","description":"Наклейка холста, финишная полимерная шпаклевка Danogips/Sheetrock","unit":"м²","priceKopecks":75000,"categoryId":"plaster_paint","type":"service"},
+    {"id":"fin-006","name":"Покраска стен водоэмульсионной краской в 2 слоя","description":"Безвоздушное или валиком с микрофиброй, защита плинтусов и проемов","unit":"м²","priceKopecks":38000,"categoryId":"plaster_paint","type":"service"},
+    {"id":"fin-007","name":"Укладка керамогранита крупноформатного (60x60 / 60x120 см)","description":"Использование СВП (систем выравнивания), запил под 45 градусов","unit":"м²","priceKopecks":160000,"categoryId":"tile","type":"service"},
+    {"id":"fin-008","name":"Запил наружного угла плитки под 45 градусов (заусовка)","description":"Алмазная подрезка на мокрорезе с ручной доводкой черепашками","unit":"м.п.","priceKopecks":95000,"categoryId":"tile","type":"service"},
+    {"id":"fin-009","name":"Затирка швов плитки эпоксидным составом","description":"Двухкомпонентная влагостойкая эпоксидная затирка Litokol / Mapei","unit":"м²","priceKopecks":60000,"categoryId":"tile","type":"service"},
+    {"id":"fin-010","name":"Клей для керамогранита усиленный C2TE (25 кг)","description":"Эластичный плиточный клей с повышенной адгезией","unit":"мешок","priceKopecks":79000,"categoryId":"mixes","type":"material"},
+    {"id":"fin-011","name":"Монтаж наливного самонивелирующегося пола (до 10 мм)","description":"Прокатка игольчатым валиком, демпферная лента по периметру","unit":"м²","priceKopecks":32000,"categoryId":"flooring","type":"service"},
+    {"id":"fin-012","name":"Укладка ламината / кварцвинила (замковый способ)","description":"Настил подложки, укладка со смещением швов 1/3, зазор от стен","unit":"м²","priceKopecks":38000,"categoryId":"flooring","type":"service"},
+    {"id":"fin-013","name":"Монтаж напольного плинтуса (МДФ / полиуретан / дюрополимер)","description":"Торцовка углов под 45 градусов, монтаж на жидкие гвозди","unit":"м.п.","priceKopecks":35000,"categoryId":"flooring","type":"service"},
+    {"id":"fin-014","name":"Монтаж перегородки из ГКЛ в 2 слоя с шумоизоляцией","description":"Каркас Knauf 75 мм, минвата акустическая, ГКЛВ 12.5 мм","unit":"м²","priceKopecks":95000,"categoryId":"drywall","type":"service"}
+  ]
+}
