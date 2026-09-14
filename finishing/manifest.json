@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "finishing",
+  "name": "Отделочные работы",
+  "version": "1.0.0",
+  "locale": "ru-RU",
+  "currency": "RUB",
+  "files": {
+    "catalog": "catalog.json",
+    "categories": "categories.json",
+    "config": "config.json"
+  },
+  "itemCount": 14
+}
