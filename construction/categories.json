@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    { "id": "earth_foundation", "name": "Земляные работы и фундамент" },
+    { "id": "walls_partitions", "name": "Возведение стен и перегородок" },
+    { "id": "roofing", "name": "Кровельные работы" },
+    { "id": "facade_insulation", "name": "Фасадные работы и утепление" },
+    { "id": "concrete_rebar", "name": "Бетон и арматура" },
+    { "id": "timber_fasteners", "name": "Пиломатериалы и крепеж" }
+  ]
+}
