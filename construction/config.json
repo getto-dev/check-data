@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "profileId": "construction",
+  "name": "Строительство",
+  "locale": "ru-RU",
+  "currency": "RUB",
+  "features": {
+    "services": true,
+    "materials": true,
+    "laborRates": true
+  }
+}
