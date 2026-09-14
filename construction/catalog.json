@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {"id":"bld-001","name":"Разработка грунта под ленточный фундамент вручную","description":"Выемка грунта с отсыпкой в отвал, планировка дна траншеи","unit":"м³","priceKopecks":120000,"categoryId":"earth_foundation","type":"service"},
+    {"id":"bld-002","name":"Устройство песчано-гравийной подушки с послойной трамбовкой","description":"Виброплитой с проливкой водой до коэффициента 0.95","unit":"м³","priceKopecks":95000,"categoryId":"earth_foundation","type":"service"},
+    {"id":"bld-003","name":"Вязка арматурного каркаса фундаментной плиты / ростверка","description":"Арматура А500С, фиксаторы защитного слоя «стульчики»","unit":"т","priceKopecks":2800000,"categoryId":"earth_foundation","type":"service"},
+    {"id":"bld-004","name":"Приемка и укладка товарного бетона с глубинным вибрированием","description":"Прием из миксера / автобетононасоса, заглаживание рейками","unit":"м³","priceKopecks":160000,"categoryId":"earth_foundation","type":"service"},
+    {"id":"bld-005","name":"Бетон товарный М300 (В22.5) с доставкой","description":"Гравийный/гранитный щебень, паспорт качества ГОСТ","unit":"м³","priceKopecks":580000,"categoryId":"concrete_rebar","type":"material"},
+    {"id":"bld-006","name":"Арматура рифленая стальная d12 мм А500С","description":"Прутки по 11.7 м для фундаментов и перекрытий","unit":"т","priceKopecks":6200000,"categoryId":"concrete_rebar","type":"material"},
+    {"id":"bld-007","name":"Кладка стен из газобетонных блоков (D400/D500 на клей)","description":"Армирование каждого 4-го ряда базальтовой сеткой/прутком","unit":"м³","priceKopecks":320000,"categoryId":"walls_partitions","type":"service"},
+    {"id":"bld-008","name":"Газобетонный блок Bonolit / Ytong D500 600x300x200","description":"Автоклавный ячеистый бетон I категории точности","unit":"м³","priceKopecks":640000,"categoryId":"walls_partitions","type":"material"},
+    {"id":"bld-009","name":"Монтаж стропильной системы двускатной/вальмовой кровли","description":"Мауэрлат, стропильные ноги, затяжки, огнебиозащитная пропитка","unit":"м²","priceKopecks":140000,"categoryId":"roofing","type":"service"},
+    {"id":"bld-010","name":"Монтаж металлочерепицы с гидроветрозащитой и контробрешеткой","description":"Диффузионная мембрана, контррейка 50х50, шаговая обрешетка","unit":"м²","priceKopecks":95000,"categoryId":"roofing","type":"service"},
+    {"id":"bld-011","name":"Утепление фасада минераловатными плитами (100 мм) с дюбелированием","description":"Плотность 135 кг/м³, тарельчатые дюбели с термоголовкой","unit":"м²","priceKopecks":85000,"categoryId":"facade_insulation","type":"service"},
+    {"id":"bld-012","name":"Брус хвойный 150x150x6000 мм (1 сорт)","description":"Естественной влажности ГОСТ 8486-86","unit":"м³","priceKopecks":1950000,"categoryId":"timber_fasteners","type":"material"}
+  ]
+}
