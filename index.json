@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "profiles": [
-    {"id":"plumbing","name":"Сантехника","version":"1.0.1","manifest":"plumbing/manifest.json","itemCount":271},
-    {"id":"electrical","name":"Электрика","version":"1.0.0","manifest":"electrical/manifest.json","itemCount":163},
-    {"id":"finishing","name":"Отделочные работы","version":"1.0.0","manifest":"finishing/manifest.json","itemCount":14},
-    {"id":"construction","name":"Строительство","version":"1.0.0","manifest":"construction/manifest.json","itemCount":12}
+    {"id":"plumbing","manifest":"plumbing/manifest.json"},
+    {"id":"electrical","manifest":"electrical/manifest.json"},
+    {"id":"finishing","manifest":"finishing/manifest.json"},
+    {"id":"construction","manifest":"construction/manifest.json"}
   ]
 }
